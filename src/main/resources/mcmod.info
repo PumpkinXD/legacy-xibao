@@ -1,14 +1,14 @@
 [
   {
-    "modid": "examplemod",
-    "name": "ExampleMod",
-    "description": "example",
+    "modid": "legacyxibao",
+    "name": "Legacy_XiBao",
+    "description": "no description right now",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "",
     "updateUrl": "",
     "authorList": [
-      "sdxqw"
+      "pumpkinxd"
     ],
     "credits": "Forge,FML,sdxqw",
     "logoFile": "",

@@ -18,15 +18,15 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'com.github.johnrengelman.shadow'
 
-String modid = "examplemod"
-String tweaker = "io.github.sdxqw.ifmltweaker.FMLTweaker"
+String modid = "legacyxibao"
+String tweaker = "io.github.pumpkinxd.legacyxibao.ifmltweaker.FMLTweaker"
 
 compileJava {
     sourceCompatibility = targetCompatibility = 8
 }
 
 version "1.8.9"
-group "io.github.sdxqw"
+group "io.github.pumpkinxd.legacyxibao"
 
 minecraft {
     version = "1.8.9-11.15.1.2318-1.8.9"

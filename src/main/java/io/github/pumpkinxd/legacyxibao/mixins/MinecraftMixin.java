@@ -1,4 +1,4 @@
-package io.github.sdxqw.mixins;
+package io.github.pumpkinxd.legacyxibao.mixins;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

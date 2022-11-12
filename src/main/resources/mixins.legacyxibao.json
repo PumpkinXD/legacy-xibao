@@ -1,8 +1,8 @@
 {
   "required": true,
   "compatibilityLevel": "JAVA_8",
-  "package": "io.github.sdxqw.mixins",
-  "refmap": "mixins.examplemod.refmap.json",
+  "package": "io.github.pumpkinxd.legacyxibao.mixins",
+  "refmap": "mixins.legacyxibao.refmap.json",
   "verbose": true,
   "client": [
     "MinecraftMixin"

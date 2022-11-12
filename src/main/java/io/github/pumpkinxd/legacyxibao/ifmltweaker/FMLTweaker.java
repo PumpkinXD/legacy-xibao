@@ -1,6 +1,6 @@
-package io.github.sdxqw.ifmltweaker;
+package io.github.pumpkinxd.legacyxibao.ifmltweaker;
 
-import io.github.sdxqw.ExampleMod;
+import io.github.pumpkinxd.legacyxibao.legacy_xibao;
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.spongepowered.asm.launch.MixinBootstrap;
 import org.spongepowered.asm.mixin.MixinEnvironment;
@@ -29,7 +29,7 @@ public class FMLTweaker implements IFMLLoadingPlugin {
     @Override
     public void injectData(Map<String, Object> data) {
         MixinBootstrap.init();
-        Mixins.addConfiguration("mixins." + ExampleMod.MOD_ID + ".json");
+        Mixins.addConfiguration("mixins." + legacy_xibao.MOD_ID + ".json");
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("searge");
     }
 
