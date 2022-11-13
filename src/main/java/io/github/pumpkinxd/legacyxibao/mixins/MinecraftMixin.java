@@ -10,6 +10,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MinecraftMixin {
     @Inject(method = "startGame", at = @At("HEAD"))
     public void startGame(CallbackInfo ci) {
-        System.out.println("Test start mixin");
+        System.out.println("[LegacyXiBao] Test start mixin");
     }
 }
